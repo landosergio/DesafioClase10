@@ -121,21 +121,11 @@
     {
         "title": "Producto agregado en tiempo real desde Postman 5",
         "description": "------------------",
-        "code": "999-666d",
+        "code": "999-666f",
         "price": 9999999,
         "stock": 999999,
         "thumbnail": [],
         "status": true,
-        "id": 18
-    },
-    {
-        "title": "Producto agregado en tiempo real desde Postman 6",
-        "description": "------------------",
-        "code": "999-666e",
-        "price": 9999999,
-        "stock": 999999,
-        "thumbnail": [],
-        "status": true,
-        "id": 19
+        "id": 17
     }
 ]
