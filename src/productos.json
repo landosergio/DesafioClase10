@@ -9,15 +9,6 @@
         "id": 1
     },
     {
-        "title": "Producto de prueba 2",
-        "description": "Este es un producto prueba",
-        "price": 1267,
-        "thumbnail": "Sin imagen",
-        "code": "abc123-2",
-        "stock": 1,
-        "id": 2
-    },
-    {
         "title": "Producto de prueba 3",
         "description": "Este es un producto prueba",
         "price": 1220,
@@ -43,15 +34,6 @@
         "code": "abc123-5",
         "stock": 22,
         "id": 5
-    },
-    {
-        "title": "Producto de prueba 6",
-        "description": "Este es un producto prueba",
-        "price": 1447,
-        "thumbnail": "Sin imagen",
-        "code": "abc123-6",
-        "stock": 4,
-        "id": 6
     },
     {
         "title": "Producto de prueba 7",
@@ -117,27 +99,19 @@
         "id": 13
     },
     {
-        "title": "Producto de prueba 14",
-        "description": "Este es un producto prueba",
-        "price": 690,
-        "thumbnail": "Sin imagen",
-        "code": "abc123-14",
-        "stock": 21,
+        "title": "Producto agregado en tiempo real desde Postman 1",
+        "description": "------------------",
+        "code": "999-666",
+        "price": 9999999,
+        "stock": 999999,
+        "thumbnail": [],
+        "status": true,
         "id": 14
     },
     {
-        "title": "Producto de prueba 15",
-        "description": "Este es un producto prueba",
-        "price": 774,
-        "thumbnail": "Sin imagen",
-        "code": "abc123-15",
-        "stock": 2,
-        "id": 15
-    },
-    {
-        "title": "PRODUCTO DESDE POSTMAN",
-        "description": "ESTE PRODUCTO FUE CREADO DESDE POSTMAN",
-        "code": "999-888",
+        "title": "Producto agregado en tiempo real desde Postman 3",
+        "description": "------------------",
+        "code": "999-666b",
         "price": 9999999,
         "stock": 999999,
         "thumbnail": [],
@@ -145,13 +119,23 @@
         "id": 16
     },
     {
-        "title": "PRODUCTO ACTUALIZADO DESDE POSTMAN",
-        "description": "Sólo título y descripción. Comparar con el 16",
-        "code": "999-777",
+        "title": "Producto agregado en tiempo real desde Postman 5",
+        "description": "------------------",
+        "code": "999-666d",
         "price": 9999999,
         "stock": 999999,
         "thumbnail": [],
         "status": true,
-        "id": 17
+        "id": 18
+    },
+    {
+        "title": "Producto agregado en tiempo real desde Postman 6",
+        "description": "------------------",
+        "code": "999-666e",
+        "price": 9999999,
+        "stock": 999999,
+        "thumbnail": [],
+        "status": true,
+        "id": 19
     }
 ]

@@ -23,10 +23,13 @@ productsRouter.get("/:pid", async (req, res) => {
 });
 
 productsRouter.post("/", async (req, res) => {
+  let products = await manager.getProducts();
+
   let newProd = req.body;
   newProd.status = true;
 
   let message = await manager.addProduct(newProd);
+  req.socketServer.emit("realTimeProducts", products);
   res.send(message);
 });
 
@@ -37,6 +40,10 @@ productsRouter.put("/:pid", async (req, res) => {
 
 productsRouter.delete("/:pid", async (req, res) => {
   let message = await manager.deleteProduct(req.params.pid);
+  let products = await manager.getProducts();
+
+  req.socketServer.emit("realTimeProducts", products);
+
   res.send(message);
 });
 
